@@ -28,16 +28,15 @@
 
 <body>
     <nav class="navbar navbar-light navbar-expand-sm border rounded-pill shadow-sm clean-navbar" style="height: 85.375px;">
-        <div class="container-fluid"><img class="img-fluid" style="background: url(&quot;assets/img/online_learning1.png&quot;);width: 64px;" src="assets/img/online_learning1.png"><a class="navbar-brand logo" href="#" style="text-align: left;">Hypersky</a><button data-bs-toggle="collapse" class="navbar-toggler text-start" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" data-aos="fade"></span></button>
-            <div class="collapse navbar-collapse text-center bg-light border rounded shadow-sm d-xl-flex justify-content-xl-end visible" id="navcol-1" style="background: rgba(248,249,250,0);">
-                <ul class="navbar-nav" data-bs-toggle="tooltip" data-bss-tooltip="">
-                    <li class="nav-item"><a class="nav-link" href="index.html" style="font-family: Montserrat, sans-serif;">Home</a></li>
-                    <li class="nav-item"><a class="nav-link stretched-link active" href="#aLevelBooks">A LEVEL</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
+        <div class="container-fluid"><img class="img-fluid" style="background: url(&quot;assets/img/online_learning1.png&quot;);width: 64px;" src="assets/img/online_learning1.png"><a id="home"class="navbar-brand logo" href="#home" style="text-align: left;">Hypersky</a><button class="navbar-toggler text-start" data-bs-toggle="collapse"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" data-aos="fade"></span></button><div id="navcol-1" class="collapse navbar-collapse text-center bg-light border rounded shadow-sm d-xl-flex justify-content-xl-end visible" style="background: rgba(248,249,250,0);">
+    <ul class="navbar-nav" data-bs-toggle="tooltip">
+        <li class="nav-item"><a class="nav-link" href="index.html" style="font-family: Montserrat, sans-serif;">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#aLevelBooks">A-LEVEL</a></li>
+		<li class="nav-item"><a class="nav-link" href="index.html#gcseBooks">IGCSE</a></li>
+        <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+    </ul>
+</div></div>
     </nav>
     <main class="page faq-page">
         <section class="clean-block clean-faq dark">
@@ -138,6 +137,7 @@
             </div>
         </footer>
     </footer>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

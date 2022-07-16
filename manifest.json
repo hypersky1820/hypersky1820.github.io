@@ -1,1 +1,1 @@
-{"short_name":"Hsky","name":"Hypersky","icons":[{"src":"/assets/img/online_learning1.png","type":"image/png","sizes":"256x256"},{"src":"/assets/img/online_learning1.png","type":"image/png","sizes":"256x256"}],"start_url":"index.html","display":"fullscreen"}
+{"short_name":"Hsky","name":"Hypersky","icons":[{"src":"/assets/img/online_learning1.png","type":"image/png","sizes":"256x256","purpose":"any maskable"},{"src":"/assets/img/online_learning1.png","type":"image/png","sizes":"256x256","purpose":"any maskable"}],"start_url":"index.html","display":"fullscreen"}
